@@ -183,11 +183,19 @@ ol {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-item {
   background-color: #ffffff;
+  padding-bottom: 32px;
 }
-
+.team-list{
+  gap: 24px;
+}
+.team-img {
+  margin-bottom: 32px;
+}
 .team-name,
 .portfolio-name {
   text-align: center;
@@ -196,6 +204,7 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-item-name,
 .team-text {
