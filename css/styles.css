@@ -190,7 +190,7 @@ ol {
   background-color: #ffffff;
   padding-bottom: 32px;
 }
-.team-list{
+.team-list {
   gap: 24px;
 }
 .team-img {
@@ -253,8 +253,6 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
-
 }
 .footer {
   padding-top: 100px;
