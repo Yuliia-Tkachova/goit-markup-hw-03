@@ -110,12 +110,20 @@ ol {
 .footer {
   background: #2e2f42;
 }
+.hero {
+  padding-bottom: 188px;
+}
 .name-hero {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  padding-top: 188px;
 }
 .button-hero {
   font-weight: 500;
@@ -123,6 +131,9 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .button-hero:focus,
 .button-hero:hover {
