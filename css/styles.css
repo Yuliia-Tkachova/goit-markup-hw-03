@@ -211,7 +211,13 @@ ol {
   text-align: center;
 }
 /*portfolio section*/
-
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-img {
+  margin-bottom: 32px;
+}
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
@@ -224,6 +230,15 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-item {
+  padding-bottom: 32px;
+  width: 360px;
+}
+.portfolio-list {
+  gap: 24px;
+  flex-wrap: wrap;
 }
 /*footer section*/
 
