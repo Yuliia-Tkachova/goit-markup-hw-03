@@ -106,8 +106,6 @@ img {
   gap: 40px;
 }
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 /*hero section*/
@@ -142,6 +140,7 @@ img {
   border: none;
   border-radius: 4px;
   display: block;
+  padding: 16px 32px;
 }
 .button-hero:focus,
 .button-hero:hover {
@@ -199,15 +198,12 @@ img {
 }
 .team-item {
   background-color: #ffffff;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-list {
   gap: 24px;
 }
-.team-img {
-  margin-bottom: 32px;
-}
+
 .team-name,
 .portfolio-name {
   text-align: center;
@@ -221,6 +217,8 @@ img {
 .team-item-name,
 .team-text {
   text-align: center;
+}
+.team-item-name {
   margin-bottom: 8px;
 }
 .team-card {
@@ -231,9 +229,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-img {
-  margin-bottom: 32px;
-}
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
@@ -249,8 +245,7 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-item {
-  padding-bottom: 32px;
-  width: 360px;
+  width: calc(100%-48) / 3;
 }
 .portfolio-list {
   gap: 24px;
